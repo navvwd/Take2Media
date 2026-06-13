@@ -414,6 +414,14 @@ const heroPillars = [
   ['Automation', 'AI workflows and dashboards'],
 ];
 
+const heroSignalItems = [
+  { label: 'Brief', icon: Sparkles },
+  { label: 'Website', icon: Code2, mobileHidden: true },
+  { label: 'Content', icon: Clapperboard },
+  { label: 'Automation', icon: Workflow, mobileHidden: true },
+  { label: 'Growth', icon: Rocket },
+];
+
 const contactDetails = [
   { label: 'Phone', value: '+91 98946 78789', icon: Phone, href: 'tel:+919894678789' },
   { label: 'Email', value: 'take2mediia@gmail.com', icon: Mail, href: 'mailto:take2mediia@gmail.com' },
@@ -833,10 +841,22 @@ function Hero() {
       <div className="absolute left-[8%] top-36 h-px w-28 bg-gradient-to-r from-transparent via-cyan/70 to-transparent" />
       <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[1.02fr_0.98fr]">
         <div className="hero-copy reveal-in">
-          <p className="hero-eyebrow mb-5 inline-flex items-center gap-2 rounded-full border border-cyan/20 bg-cyan/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.22em] text-cyan-100">
-            <span className="h-1.5 w-1.5 rounded-full bg-ember shadow-[0_0_18px_rgba(255,138,61,0.9)]" />
-            Premium digital marketing and creative media agency
-          </p>
+          <div className="hero-signal-thread" aria-label="Creative signal thread from brief to website, content, automation, and growth">
+            <div className="hero-signal-track" aria-hidden="true">
+              <span className="hero-signal-line" />
+              <span className="hero-signal-pulse" />
+            </div>
+            <div className="hero-signal-items">
+              {heroSignalItems.map(({ label, icon: Icon, mobileHidden }) => (
+                <span key={label} className="hero-signal-chip" data-mobile-hidden={mobileHidden ? 'true' : undefined}>
+                  <span className="hero-signal-node" aria-hidden="true">
+                    <Icon size={12} strokeWidth={2.4} />
+                  </span>
+                  {label}
+                </span>
+              ))}
+            </div>
+          </div>
           <h1 className="hero-headline font-display text-5xl font-extrabold leading-[0.98] tracking-normal sm:text-6xl lg:text-7xl">
             We Build <span className="hero-word-glow">Digital Presence</span> That Helps Brands <span className="gradient-text hero-sweep">Grow</span>
           </h1>
@@ -1665,9 +1685,17 @@ function App() {
   };
 
   useEffect(() => {
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const coarsePointer = window.matchMedia('(pointer: coarse)').matches;
+
+    if (reduceMotion || coarsePointer) {
+      document.documentElement.style.setProperty('--scroll-depth', '0px');
+      return undefined;
+    }
+
     let ticking = false;
     const updateDepth = () => {
-      document.documentElement.style.setProperty('--scroll-depth', `${window.scrollY * -0.035}px`);
+      document.documentElement.style.setProperty('--scroll-depth', `${Math.max(window.scrollY * -0.02, -90)}px`);
       ticking = false;
     };
     const onScroll = () => {
