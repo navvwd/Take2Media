@@ -1,0 +1,298 @@
+# AGENTS.md
+
+Fix the current website completely.
+
+The current output is wrong:
+
+1. The website is stuck on a loading screen.
+2. The brand name is wrong.
+3. The website currently says “Technom Media”, but the correct brand name is “Take2 Media”.
+4. The site does not show our services, works, clients, portfolio, or proper agency sections.
+5. The current design is too empty and unusable.
+
+First, inspect the existing project files carefully:
+
+* package.json
+* src/main.jsx
+* src/App.jsx
+* src/index.css
+* any component files
+* any animation/loading logic
+
+Then fix the issue properly.
+
+Important:
+Remove or fix the loading screen. The website must load directly into the full homepage. Do not keep any loader that can get stuck. If a loader is used, it must disappear automatically within 800ms and never block the website.
+
+Rebuild the website as a premium responsive agency website for:
+
+Brand Name:
+Take2 Media
+
+Brand Type:
+Digital marketing, creative media, website development, social media management, video production, branding, automation, and AI/agent-tech solutions agency.
+
+The website must not look like a generic AI-generated website or a student portfolio. It should look like a serious digital marketing agency website that can be shown to real clients.
+
+Use a premium dark theme with:
+
+* Black / charcoal background
+* Blue, cyan, purple, and orange gradient accents
+* Premium typography
+* Glassmorphism cards
+* 3D-inspired abstract shapes
+* Floating elements
+* Smooth animations
+* Scroll reveal effects
+* Strong CTA buttons
+* Mobile responsive layout
+* Clean professional spacing
+
+Required Website Sections:
+
+1. Navbar
+   Brand: Take2 Media
+   Links:
+   Home, About, Services, Work, Process, Contact
+
+2. Hero Section
+   Headline:
+   We Build Digital Presence That Helps Brands Grow
+
+Subheading:
+Take2 Media helps businesses grow through premium websites, social media handling, video content, branding, automation, and AI-powered digital solutions.
+
+CTA Buttons:
+View Our Work
+Start a Project
+
+Hero design:
+Use 3D-inspired abstract visuals, floating gradient shapes, and a premium agency-style layout.
+
+3. About Section
+   Content:
+   Take2 Media is a creative and technology-driven digital agency helping businesses build a stronger online presence through websites, social media, video content, branding, and smart digital systems.
+
+Mention:
+We work with restaurants, hospitals, local businesses, cafes, service brands, and growing businesses.
+
+4. Services Section
+   Create premium service cards for:
+
+* Website Development
+* Social Media Handling
+* Video Creation
+* Video Editing
+* Content Creation
+* Script Writing
+* Poster & Creative Design
+* Branding Support
+* Automation Solutions
+* AI / Agent Tech Solutions
+* Digital Marketing Support
+
+Each service card should have an icon, short title, and business-focused description.
+
+5. Our Work / Portfolio Section
+   Title:
+   Our Recent Work
+
+Add these project cards:
+
+Brown House Restaurant
+Category: Restaurant Website / Branding / Digital Support
+Description: Worked on restaurant-focused digital presence, website support, promotional content, and creative media execution.
+
+RKP Hospital
+Category: Hospital Website / Digital Setup / Social Media Support
+Description: Worked on website development, hospital service presentation, appointment setup, digital content support, and online presence improvement.
+
+Promos Restaurant
+Category: Restaurant Branding / Social Media / Creative Support
+Description: Supported the brand with digital content, promotional creatives, and restaurant marketing support.
+
+Karupatti Coffee
+Category: Social Media / Video Content / Restaurant Promotion
+Description: Created social media content, promotional videos, and food-brand marketing support.
+
+Weaver Orchid
+Category: Branding / Creative Digital Support
+Description: Delivered creative media support to improve brand visibility and online presentation.
+
+Add note:
+More projects are actively in progress as Take2 Media continues working with local businesses and growing brands.
+
+6. Why Choose Take2 Media Section
+   Include:
+
+* Creative and technical expertise in one place
+* Premium visual quality with practical business value
+* Website, media, branding, automation, and growth support under one roof
+* Clear client communication
+* Fast execution with professional output
+* Focus on real business growth, not just fancy design
+
+7. Process Section
+   Create a visual process:
+
+8. Understand
+
+9. Plan
+
+10. Create
+
+11. Deliver
+
+12. Grow
+
+13. Industries Section
+    Show:
+    Restaurants, Hospitals, Cafes, Local Businesses, Startups, Service Brands, Retail Businesses, Personal Brands.
+
+14. CTA Section
+    Heading:
+    Let’s Build Your Brand Online
+
+Subtext:
+Whether you need a website, social media handling, video content, branding, automation, or AI-powered systems, Take2 Media can help you create a stronger digital presence.
+
+Button:
+Start Your Project
+
+10. Contact Section
+    Create a clean contact form with:
+    Name, Phone Number, Email, Business Name, Service Required, Message
+
+Contact placeholders:
+Phone: +91 XXXXX XXXXX
+Email: [take2media@example.com](mailto:take2media@example.com)
+Location: Chennai, Tamil Nadu
+
+11. Footer
+    Include:
+    Take2 Media
+    Short tagline
+    Navigation links
+    Services
+    Contact details
+    Copyright
+
+Technical Requirements:
+
+* Use React + Tailwind CSS
+* Use Framer Motion if installed
+* Use lucide-react icons if installed
+* Do not depend on external images
+* Use CSS gradients, abstract shapes, and layout design
+* Fully responsive on mobile, tablet, and desktop
+* No broken imports
+* No infinite loading
+* No console errors
+* No blank screen
+* Run npm run build and fix all errors
+
+Final response after completion:
+
+1. Mention what was wrong
+2. Mention files changed
+3. Confirm build passed
+4. Tell me how to run locally using npm run dev
+
+## Project
+
+This project is for Take2 Media, a premium digital marketing and creative technology agency.
+
+## Correct Brand Name
+
+Always use:
+Take2 Media
+
+Do not use:
+Technom Media
+
+## Brand Goal
+
+Take2 Media helps businesses grow through:
+
+* Website Development
+* Social Media Handling
+* Video Creation
+* Video Editing
+* Content Creation
+* Script Writing
+* Poster and Creative Design
+* Branding Support
+* Automation Solutions
+* AI / Agent Tech Solutions
+* Digital Marketing Support
+
+## Website Style
+
+The website must look:
+
+* Premium
+* Modern
+* Creative
+* Business-focused
+* Trustworthy
+* Client-presentation ready
+
+Avoid:
+
+* Generic AI-generated design
+* Student portfolio style
+* Cheap templates
+* Overcrowded layouts
+* Empty loading screens
+* Random stock-image dependency
+* Weak typography
+
+## Design Direction
+
+Use:
+
+* Dark premium theme
+* Black / charcoal base
+* Electric blue, cyan, purple, and orange accents
+* 3D-inspired abstract visuals
+* Floating shapes
+* Glassmorphism cards
+* Smooth gradients
+* Scroll reveal animations
+* Interactive hover effects
+* Large bold typography
+* Clean spacing
+* Mobile-first responsive design
+
+## Projects to Showcase
+
+1. Brown House Restaurant
+   Category: Restaurant Website / Branding / Digital Support
+
+2. RKP Hospital
+   Category: Hospital Website / Digital Setup / Social Media Support
+
+3. Promos Restaurant
+   Category: Restaurant Branding / Social Media / Creative Support
+
+4. Karupatti Coffee
+   Category: Social Media / Video Content / Restaurant Promotion
+
+5. Weaver Orchid
+   Category: Branding / Creative Digital Support
+
+## Development Rules
+
+* Inspect existing files before editing.
+* Do not delete important files without reason.
+* Remove any broken or infinite loading screen.
+* The website must show the full homepage after loading.
+* Use reusable React components.
+* Use Tailwind CSS properly.
+* Use Framer Motion for animations if installed.
+* Use lucide-react icons if useful.
+* Keep performance optimized.
+* Make the site responsive.
+* Run npm run build before final response.
+* Fix broken imports and runtime errors.
+* Summarize changed files after completion.

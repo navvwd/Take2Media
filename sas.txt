@@ -1,0 +1,199 @@
+Final refine the Take2 Media Agentic AI / Dashboard section and Process Journey section.
+
+Do not change the brand name.
+Use only:
+Take2 Media
+
+Do not use:
+Technom Media
+
+---
+
+1. AGENTIC AI, AUTOMATION & DASHBOARD SECTION FIX
+
+---
+
+Current issue:
+The Agentic AI, Automation & Dashboards section looks good, but the dashboard visual needs clearer business-use meaning. It should show that Take2 Media can connect website leads, social media enquiries, automation tasks, reports, and business data into one dashboard.
+
+Keep the current design style and layout mostly the same.
+
+Add clearer dashboard-related content inside or below the dashboard visual.
+
+Add dashboard data labels/cards such as:
+
+* Website Leads
+* Social Media Enquiries
+* Campaign Requests
+* Automation Tasks
+* Project Updates
+* Business Reports
+* Client Follow-ups
+* Team Workflow
+
+Add a short dashboard description near the dashboard visual:
+
+“Your website leads, social media enquiries, automation tasks, reports, and business updates can be organized into one clean personalized dashboard.”
+
+Add another small line:
+
+“Built around your workflow, not a fixed template.”
+
+Visual direction:
+
+* Add mini widget blocks below or inside the dashboard panel.
+* These widgets should look like premium dashboard modules.
+* Use glassmorphism, glow borders, soft 3D depth, and subtle floating motion.
+* Use icons if available.
+* Keep it clean and readable.
+* Do not overcrowd the dashboard visual.
+
+Add a simple flow visual:
+Website Form → Automation → Dashboard → Follow-up
+
+Also show:
+Social Media → Lead Capture → Dashboard → Action
+
+Make the flows look premium using:
+
+* arrow connectors
+* glowing small nodes
+* animated pulse
+* subtle cyan/purple glow
+* clear direction
+
+Important:
+Do not overdesign.
+Do not make it childish.
+The dashboard should look like a smart business operations system.
+
+Suggested improved section copy:
+
+Title:
+Agentic AI, Automation & Dashboard Systems
+
+Description:
+Take2 Media builds automation workflows, AI-assisted systems, and personalized dashboards that help businesses collect leads, connect tools, track operations, and manage important updates from one place.
+
+Dashboard support text:
+From website enquiries and social media leads to project updates, reports, and follow-ups, we can organize your business workflow into a clean personalized dashboard.
+
+---
+
+2. PROCESS JOURNEY SECTION ARROW FIX
+
+---
+
+Current issue:
+The process section looks good, but the arrow/path movement is not clearly defined. The user should instantly understand that the project moves from Decode to Map to Build to Launch to Scale.
+
+Improve the process arrows and route path.
+
+Keep process steps:
+
+1. Decode
+2. Map
+3. Build
+4. Launch
+5. Scale
+
+Improve arrow/path design:
+
+* Make arrows more visible and clearly directional.
+* The route should feel intentional, not random.
+* Use a glowing dashed/curved path between cards.
+* Add arrowheads between every checkpoint.
+* Add small moving light pulse traveling from step 01 to step 05.
+* Add subtle labels between steps if useful:
+  Brief → Strategy → Creation → Launch → Growth
+* Use clearer connection points from card to card.
+* Make the path visually pass through or near each checkpoint.
+* Avoid random lines that do not clearly connect.
+
+Each card should have:
+
+* Checkpoint number
+* Step title
+* Small action label
+* Short description
+
+Use this process content:
+
+01 Decode
+Action Label:
+Understand
+Description:
+We study your business, audience, goals, and current digital position.
+
+02 Map
+Action Label:
+Plan
+Description:
+We plan the right website, content, automation, or growth direction.
+
+03 Build
+Action Label:
+Create
+Description:
+We design, develop, edit, write, and create polished digital assets.
+
+04 Launch
+Action Label:
+Deliver
+Description:
+We launch clean, responsive, client-ready work with proper handoff.
+
+05 Scale
+Action Label:
+Grow
+Description:
+We refine content, improve systems, and support stronger visibility.
+
+Heading:
+From First Brief to Digital Growth, We Move With a Clear Plan.
+
+Supporting text:
+Every project follows a structured creative and technical journey, from understanding your business to building, launching, and improving your digital presence.
+
+Visual direction:
+
+* Premium dark theme
+* Glassmorphism checkpoint cards
+* Glowing route tracker
+* Defined arrowheads
+* Moving pulse animation
+* Subtle hover glow
+* 3D depth
+* Responsive layout
+
+Desktop:
+Use horizontal or wave-style route with strong arrow direction.
+
+Mobile:
+Use vertical glowing timeline with clear downward arrows.
+
+Do not make the process look like a basic flowchart.
+Make it feel like a premium project tracking journey.
+
+---
+
+3. QUALITY RULES
+
+---
+
+* Keep the existing website design language.
+* Do not redesign everything from scratch.
+* Improve clarity, direction, and polish.
+* No broken layout.
+* No console errors.
+* No infinite loading.
+* Fully responsive.
+* Run npm run build and fix all errors.
+
+Final response should include:
+
+1. What changed in the dashboard section
+2. What text/widgets were added
+3. How the process arrows were improved
+4. What files changed
+5. Whether npm run build passed

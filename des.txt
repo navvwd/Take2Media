@@ -1,0 +1,221 @@
+Upgrade the Take2 Media website homepage and services section into a far more premium, immersive, and visually striking experience.
+
+Important:
+Do not change the brand name.
+Use only:
+Take2 Media
+
+Main goals:
+1. Make the homepage hero section much more attractive and high-end.
+2. Add premium 3D glow and motion effects to the right side of the hero section.
+3. Improve the big hero text with stronger visual impact, glow accents, and premium animation.
+4. Redesign the services section so it feels more ultra-premium, connected, and visually rich.
+5. Create a stronger Agentic AI / Automation / Dashboard visual language.
+6. Maintain a professional agency feel — not childish, not cluttered, and not template-like.
+
+--------------------------------------------------
+1. HOMEPAGE HERO SECTION UPGRADE
+--------------------------------------------------
+
+Redesign the starting homepage hero section to feel more premium and visually powerful.
+
+Requirements:
+- Keep the dark premium theme.
+- On the right side of the hero section, add a visually rich 3D glowing motion composition.
+- This right-side visual should feel like a high-end digital/creative/AI ecosystem.
+- Add layered floating abstract 3D elements.
+- Add soft neon gradient glow in cyan / blue / purple / orange tones.
+- Add subtle motion as if the shapes are alive.
+- Add depth, blur, soft particle accents, and premium motion.
+- It should feel like a creative technology energy core or a digital growth engine.
+- Use smooth floating animation and subtle parallax movement.
+- It should feel premium and realistic, not cartoonish.
+
+Hero visual ideas:
+- glowing 3D orb cluster
+- floating glass panels
+- abstract rings
+- digital nodes and connections
+- layered depth shapes
+- motion-based glow streaks
+- subtle orbiting elements
+
+--------------------------------------------------
+2. BIG HERO TEXT IMPROVEMENT
+--------------------------------------------------
+
+The big text on the homepage must feel more premium.
+
+Add:
+- subtle reveal animation on load
+- selective glow or highlight effect on important words
+- accent underline / arrow / beam-like design elements
+- premium text emphasis
+- gradient accent on selected keywords only
+- slightly animated glow sweep on important phrases
+
+Do not overdo it.
+Keep the text readable and premium.
+
+Possible visual treatment:
+- key phrases like “digital presence”, “business growth”, “automation”, or “agentic AI” can have a subtle glow accent
+- add elegant arrow-like directional accents or micro design marks near the headline
+- add soft hover motion or reveal for highlight words
+
+--------------------------------------------------
+3. HERO CTA AREA
+--------------------------------------------------
+
+Improve the call-to-action area:
+- premium pill buttons
+- soft glow on hover
+- subtle elevation / lift
+- arrow icon motion
+- better spacing and alignment
+
+Buttons should feel premium and client-ready.
+
+--------------------------------------------------
+4. SERVICES SECTION REDESIGN
+--------------------------------------------------
+
+Redesign the services section so it feels more visually advanced and connected.
+
+Current cards should be improved:
+- make them feel more premium
+- stronger depth
+- better spacing
+- better icon presentation
+- hover lift + tilt
+- subtle glow border on hover
+- stronger visual hierarchy
+
+Section title:
+Digital services built for visibility, trust, and real business growth.
+
+Keep the card layout, but make it more immersive and luxurious.
+
+--------------------------------------------------
+5. AGENTIC AI / AUTOMATION VISUAL UPGRADE
+--------------------------------------------------
+
+This is very important.
+
+The Agentic AI, Automation & Dashboards card / visual area should look more advanced and visually impressive.
+
+Create the feeling of:
+- connected tools
+- workflow systems
+- nodes talking to each other
+- automations flowing
+- data moving between systems
+- AI-powered orchestration
+
+Visual design ideas:
+- connected glowing nodes
+- tool chips/cards linked with soft lines
+- floating dashboard panels
+- automation flow arrows
+- digital graph / network effect
+- layered 3D depth
+- glassmorphism floating surfaces
+- animated pathway from lead → automation → dashboard → action
+
+This should feel like a smart connected digital system.
+
+--------------------------------------------------
+6. 3D CONTINUITY
+--------------------------------------------------
+
+Maintain strong visual continuity across homepage and services.
+
+Use:
+- floating abstract 3D forms
+- premium glow effects
+- soft motion
+- depth layers
+- glassmorphism
+- blur-based background elements
+- subtle lighting highlights
+- perspective transforms on hover
+- premium realistic shadows
+
+--------------------------------------------------
+7. ICON / CARD PRESENTATION
+--------------------------------------------------
+
+Improve all service icons:
+- place icons inside better containers
+- circular or rounded premium icon holder
+- soft glow
+- subtle inner shadow
+- clean high-end appearance
+
+Cards should not look flat.
+They should feel slightly elevated and premium.
+
+--------------------------------------------------
+8. MICRO-INTERACTIONS
+--------------------------------------------------
+
+Add premium micro interactions:
+- hover glow
+- card lift
+- slight 3D tilt
+- smooth section reveal on scroll
+- subtle motion on hero visual
+- animated directional accents
+- text reveal polish
+
+--------------------------------------------------
+9. DESIGN STYLE
+--------------------------------------------------
+
+Overall style should feel:
+- ultra-premium
+- realistic
+- modern
+- polished
+- agency-grade
+- luxury digital
+- cinematic but professional
+
+Avoid:
+- childish design
+- gaming UI feel
+- too many random shapes
+- clutter
+- poor spacing
+- excessive animation
+- generic AI-template look
+
+--------------------------------------------------
+10. TECHNICAL REQUIREMENTS
+--------------------------------------------------
+
+Use:
+- React
+- Tailwind CSS
+- Framer Motion if available
+- CSS transforms / perspective
+- reusable components
+
+Keep it:
+- responsive on mobile / tablet / desktop
+- fast
+- cleanly structured
+- free from console errors
+- no broken imports
+- no infinite loading
+
+After implementation:
+- run npm run build
+- fix all errors
+
+Final response should include:
+1. files changed
+2. what was improved in the hero section
+3. what was improved in the services section
+4. what was added for 3D/glow/motion
+5. whether build passed
+6. how to run locally

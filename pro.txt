@@ -1,0 +1,199 @@
+Update the Take2 Media website with premium logo presentation and an ultra-premium 3D social media / video production experience.
+
+Important:
+Do not change the brand name.
+Use only:
+Take2 Media
+
+Main goals:
+1. Improve all logos and logo containers.
+2. Make the social media / video production section far more premium, immersive, and visually attractive.
+3. Continue the 3D visual language consistently across the website.
+
+--------------------------------------------------
+1. LOGO IMPROVEMENT
+--------------------------------------------------
+
+Use all available logos and display them in a cleaner, more polished way.
+
+Requirements:
+- Resize all logos properly.
+- Ensure logos fit perfectly inside their containers.
+- If the design uses circular containers, make each logo sit correctly inside the circle without stretching.
+- Preserve logo proportions.
+- Add proper padding so the logos do not touch the edges.
+- Center all logos perfectly.
+- If needed, place logos inside premium glassmorphism or soft gradient circular/rounded containers.
+- Use subtle shadows, soft glow, and premium border highlights.
+- Keep logos visually balanced even if their original aspect ratios are different.
+- Make the logo section feel clean, branded, and high-end.
+
+For client/project logos:
+- Brown House Restaurant logo
+- RKP Hospitals logo
+- Amuthu Karupatti Coffee logo
+- Take2 Media logo
+
+If some logos are rectangular, place them inside circular or rounded containers with proper padding so they still look correct.
+
+Add subtle animation:
+- slight hover lift
+- slight 3D tilt
+- soft glow
+- premium smooth transitions
+
+--------------------------------------------------
+2. 3D VISUAL CONTINUITY
+--------------------------------------------------
+
+Continue the 3D design language across the site.
+
+Use:
+- floating abstract 3D shapes
+- subtle gradient glow objects
+- layered depth
+- soft blur background elements
+- slight parallax movement
+- glassmorphism surfaces
+- perspective hover effects
+- premium dark theme consistency
+
+The 3D elements must feel elegant and premium.
+Do not make the site look childish, gaming-like, or overloaded.
+
+--------------------------------------------------
+3. SOCIAL MEDIA / VIDEO PRODUCTION SECTION UPGRADE
+--------------------------------------------------
+
+Create a dedicated ultra-premium section for:
+
+Social Media Handling
+Video Production
+Content Production
+
+This section should feel cinematic and visually immersive.
+
+Creative Direction:
+The section should feel like the user is exploring a premium creative media environment.
+
+Visual ideas:
+- layered floating video frames
+- stacked reels-style cards
+- cinematic content preview panels
+- camera/lens inspired visual motifs
+- motion path or scene flow
+- frame-by-frame storytelling feel
+- editorial / production studio feel
+- subtle movement as if content is being explored
+- premium media timeline or reel-flow feel
+
+Desired emotional feel:
+- premium
+- creative
+- cinematic
+- immersive
+- visually rich
+- agency-level quality
+
+It should feel similar to exploring premium media content frame-by-frame, almost like a creative studio reel showcase.
+
+Design suggestions:
+- A large 3D feature panel showing “Social Media Handling”
+- Floating content frames around it
+- Mini content cards for:
+  - reels
+  - promotional videos
+  - content production
+  - creative campaigns
+- subtle camera/lens-inspired circular rings or motion accents
+- animated frame stacks with depth
+- content cards moving slightly on scroll
+- layered reveal animation
+
+--------------------------------------------------
+4. SECTION CONTENT
+--------------------------------------------------
+
+Use this service section title:
+
+Social Media, Video & Content Production
+
+Use this description:
+
+Take2 Media creates engaging social media content, promotional videos, branded visuals, and creative digital media designed to help businesses attract attention, communicate better, and strengthen their online presence.
+
+Add sub-points / mini feature cards:
+- Social Media Handling
+- Promotional Video Production
+- Content Production
+- Creative Campaign Support
+- Branded Visual Storytelling
+- Reels & Short-Form Content
+
+Add a supporting visual flow such as:
+Concept → Shoot / Create → Edit → Publish → Engage
+
+Display this flow in a visually attractive 3D arrow/pill style.
+
+--------------------------------------------------
+5. ULTRA-PREMIUM VIDEO EXPERIENCE
+--------------------------------------------------
+
+The social media / video section should feel like:
+- a premium creative reel showcase
+- frame-by-frame content exploration
+- a modern production studio presentation
+- a cinematic media gallery
+
+Use:
+- floating frames
+- overlapping layered cards
+- glowing borders
+- subtle 3D transforms
+- smooth scroll-triggered reveals
+- elegant transitions
+- premium typography
+- minimal but rich animation
+
+If possible, create the feeling of:
+- camera motion
+- visual tracking
+- reels being explored
+- media frames appearing progressively
+
+But keep it smooth and professional.
+Do not make it chaotic.
+
+--------------------------------------------------
+6. TECHNICAL IMPLEMENTATION
+--------------------------------------------------
+
+Use:
+- React
+- Tailwind CSS
+- Framer Motion if available
+- CSS transforms / perspective
+- smooth hover and scroll animations
+
+Do not rely heavily on external images if unnecessary.
+Use existing assets where available.
+If visual mock frames are needed, create premium abstract placeholder media cards.
+
+--------------------------------------------------
+7. QUALITY RULES
+--------------------------------------------------
+
+- Keep the design ultra-premium.
+- Keep the site responsive on mobile, tablet, and desktop.
+- Do not break existing layout.
+- Do not create infinite loading issues.
+- No console errors.
+- No broken image paths.
+- Run npm run build and fix all errors.
+
+Final response should include:
+1. What files were changed
+2. How logo sizing/containers were improved
+3. What was added to the social media/video section
+4. Whether build passed
+5. How to run locally
