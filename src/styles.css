@@ -662,7 +662,7 @@ body {
 }
 
 .services-redesign {
-  perspective: 1300px;
+  perspective: 900px;
 }
 
 .services-sticky-panel {
@@ -678,9 +678,9 @@ body {
     linear-gradient(145deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.035));
   padding: 1.35rem;
   box-shadow:
-    0 26px 80px rgba(0, 0, 0, 0.36),
+    0 18px 48px rgba(0, 0, 0, 0.32),
     inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(18px);
+  backdrop-filter: blur(10px);
 }
 
 .services-sticky-panel::after {
@@ -691,8 +691,8 @@ body {
   width: 13rem;
   height: 13rem;
   border-radius: 999px;
-  background: rgba(139, 92, 246, 0.16);
-  filter: blur(28px);
+  background: rgba(139, 92, 246, 0.11);
+  filter: blur(18px);
   pointer-events: none;
 }
 
@@ -710,10 +710,10 @@ body {
   text-align: left;
   color: #cbd5e1;
   transition:
-    background 0.28s ease,
-    border-color 0.28s ease,
-    color 0.28s ease,
-    transform 0.28s ease;
+    background 0.16s ease,
+    border-color 0.16s ease,
+    color 0.16s ease,
+    transform 0.16s ease;
 }
 
 .service-category-tab span {
@@ -762,10 +762,12 @@ body {
     linear-gradient(145deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.028));
   padding: 1rem;
   box-shadow:
-    0 26px 80px rgba(0, 0, 0, 0.34),
+    0 18px 50px rgba(0, 0, 0, 0.3),
     inset 0 1px 0 rgba(255, 255, 255, 0.09);
-  backdrop-filter: blur(18px);
+  backdrop-filter: blur(10px);
   contain: layout paint;
+  content-visibility: auto;
+  contain-intrinsic-size: 560px;
 }
 
 .service-category-heading {
@@ -813,18 +815,19 @@ body {
   color: #f8fafc;
   cursor: pointer;
   box-shadow:
-    0 18px 55px rgba(0, 0, 0, 0.3),
+    0 14px 38px rgba(0, 0, 0, 0.26),
     inset 0 1px 0 rgba(255, 255, 255, 0.08);
   contain: layout paint;
   transform-style: preserve-3d;
-  will-change: transform, opacity;
+  backface-visibility: hidden;
+  transform: translateZ(0);
   transition:
-    opacity 0.18s ease,
-    border-color 0.2s ease,
-    box-shadow 0.2s ease,
-    transform 0.2s ease,
-    background 0.2s ease;
-  backdrop-filter: blur(14px);
+    opacity 0.14s ease,
+    border-color 0.16s ease,
+    box-shadow 0.16s ease,
+    transform 0.16s ease,
+    background 0.16s ease;
+  backdrop-filter: blur(8px);
 }
 
 .interactive-service-card:not(.is-active) {
@@ -847,12 +850,13 @@ body {
 .interactive-service-card:focus-visible,
 .interactive-service-card.is-active {
   opacity: 1;
-  transform: translateY(-6px) rotateX(2deg) rotateY(-2deg);
+  transform: translate3d(0, -3px, 0) rotateX(1deg) rotateY(-1deg);
   border-color: rgba(34, 211, 238, 0.34);
   box-shadow:
-    0 30px 88px rgba(0, 0, 0, 0.43),
-    0 0 48px rgba(34, 211, 238, 0.1),
+    0 22px 58px rgba(0, 0, 0, 0.35),
+    0 0 28px rgba(34, 211, 238, 0.08),
     inset 0 1px 0 rgba(255, 255, 255, 0.13);
+  will-change: transform;
 }
 
 .interactive-service-card:hover::before,
@@ -914,20 +918,20 @@ body {
     0 16px 42px rgba(0, 0, 0, 0.28),
     0 0 34px rgba(34, 211, 238, 0.14);
   transition:
-  background 0.3s ease,
-  color 0.3s ease,
-  box-shadow 0.3s ease,
-  transform 0.2s ease;
+    background 0.18s ease,
+    color 0.18s ease,
+    box-shadow 0.18s ease,
+    transform 0.16s ease;
 }
 
 .interactive-service-card.is-active .interactive-service-icon,
 .interactive-service-card:hover .interactive-service-icon {
-  transform: translateZ(26px) rotate(-4deg) scale(1.06);
+  transform: translateZ(14px) rotate(-2deg) scale(1.03);
   background: linear-gradient(145deg, #22d3ee, #8b5cf6);
   color: white;
   box-shadow:
-    0 20px 56px rgba(0, 0, 0, 0.36),
-    0 0 52px rgba(34, 211, 238, 0.25);
+    0 16px 38px rgba(0, 0, 0, 0.3),
+    0 0 28px rgba(34, 211, 238, 0.18);
 }
 
 .interactive-service-main h3 {
@@ -953,10 +957,9 @@ body {
   opacity: 0;
   transform: translateY(8px);
   transition:
-    max-height 0.22s ease,
-    opacity 0.18s ease,
-    transform 0.18s ease,
-    margin-top 0.18s ease;
+    opacity 0.14s ease,
+    transform 0.14s ease,
+    margin-top 0.14s ease;
 }
 
 .interactive-service-card.is-active .interactive-service-detail {
@@ -1030,13 +1033,11 @@ body {
   background-size: 22px 22px;
   opacity: 0.72;
   transition:
-    height 0.22s ease,
-    opacity 0.18s ease,
-    box-shadow 0.22s ease;
+    opacity 0.16s ease,
+    box-shadow 0.16s ease;
 }
 
 .smart-system-preview.is-active {
-  height: 7.2rem;
   opacity: 1;
   box-shadow: inset 0 1px 26px rgba(34, 211, 238, 0.08);
 }
@@ -1055,6 +1056,9 @@ body {
   border-radius: 999px;
   background: #22d3ee;
   box-shadow: 0 0 24px rgba(34, 211, 238, 0.9);
+}
+
+.smart-system-preview.is-active .smart-node {
   animation: smart-node-pulse 3.6s ease-in-out infinite;
 }
 
@@ -3385,6 +3389,10 @@ body {
   .services-sticky-panel {
     position: relative;
     top: auto;
+    backdrop-filter: blur(8px);
+    box-shadow:
+      0 14px 38px rgba(0, 0, 0, 0.28),
+      inset 0 1px 0 rgba(255, 255, 255, 0.08);
   }
 
   .service-category-heading {
@@ -3653,7 +3661,7 @@ body {
 
   .interactive-service-card.is-active {
     grid-column: span 1;
-    min-height: 22rem;
+    min-height: 19rem;
   }
 
   .interactive-service-card:not(.is-active) {
@@ -3666,7 +3674,7 @@ body {
 
   .smart-system-preview,
   .smart-system-preview.is-active {
-    height: 6.8rem;
+    height: 6rem;
   }
 
   .hero-headline::after {
@@ -3843,6 +3851,46 @@ body {
   .process-zigzag-card p {
     font-size: 0.86rem;
     line-height: 1.65;
+  }
+}
+
+@media (hover: none), (pointer: coarse) {
+  .services-redesign {
+    perspective: none;
+  }
+
+  .service-category-tab:hover,
+  .service-category-tab.is-selected {
+    transform: none;
+  }
+
+  .services-sticky-panel,
+  .service-category-block,
+  .interactive-service-card {
+    backdrop-filter: none;
+  }
+
+  .interactive-service-card:hover,
+  .interactive-service-card:focus-visible,
+  .interactive-service-card.is-active {
+    transform: translateZ(0);
+    box-shadow:
+      0 16px 42px rgba(0, 0, 0, 0.3),
+      0 0 18px rgba(34, 211, 238, 0.06),
+      inset 0 1px 0 rgba(255, 255, 255, 0.11);
+  }
+
+  .interactive-service-card.is-active .interactive-service-icon,
+  .interactive-service-card:hover .interactive-service-icon {
+    transform: none;
+  }
+
+  .interactive-service-card::before {
+    transition-duration: 0.12s;
+  }
+
+  .smart-system-preview.is-active .smart-node {
+    animation: none;
   }
 }
 

@@ -885,8 +885,24 @@ function SmartSystemPreview({ active = false }) {
   );
 }
 
+function useFinePointer() {
+  const [hasFinePointer, setHasFinePointer] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(hover: hover) and (pointer: fine)');
+    const updatePointerMode = () => setHasFinePointer(mediaQuery.matches);
+
+    updatePointerMode();
+    mediaQuery.addEventListener('change', updatePointerMode);
+    return () => mediaQuery.removeEventListener('change', updatePointerMode);
+  }, []);
+
+  return hasFinePointer;
+}
+
 const InteractiveServiceCard = memo(function InteractiveServiceCard({
   categoryName,
+  enableHoverActivation,
   index,
   isActive,
   isSmartService,
@@ -901,12 +917,18 @@ const InteractiveServiceCard = memo(function InteractiveServiceCard({
     onActivate(serviceTitle);
   }, [onActivate, serviceTitle]);
 
+  const handlePointerEnter = useCallback(() => {
+    if (enableHoverActivation) {
+      onActivate(serviceTitle);
+    }
+  }, [enableHoverActivation, onActivate, serviceTitle]);
+
   return (
     <article
       className={`interactive-service-card ${isActive ? 'is-active' : ''} ${isSmartService ? 'is-smart-system' : ''}`}
       onClick={handleActivate}
       onFocus={handleActivate}
-      onPointerEnter={handleActivate}
+      onPointerEnter={handlePointerEnter}
       tabIndex={0}
       aria-pressed={isActive}
     >
@@ -947,6 +969,7 @@ const InteractiveServiceCard = memo(function InteractiveServiceCard({
 
 function ServicesSection() {
   const [activeService, setActiveService] = useState('Website Development');
+  const enableHoverActivation = useFinePointer();
   const activeCategory = useMemo(
     () => serviceCategories.find((category) => category.services.includes(activeService)) || serviceCategories[0],
     [activeService],
@@ -1006,6 +1029,7 @@ function ServicesSection() {
                     <InteractiveServiceCard
                       key={serviceTitle}
                       categoryName={category.name}
+                      enableHoverActivation={enableHoverActivation}
                       index={index}
                       isActive={isActive}
                       isSmartService={isSmartService}
